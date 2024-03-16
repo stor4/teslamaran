@@ -1,0 +1,65 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__body {
+        display: flex;
+        flex-direction: row;
+        max-width: 1280px;
+        padding: auto 30px;
+    }
+
+    &__aside {
+        width: 200px;
+        background-color: gray;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+    }
+
+    &__aside-article {
+        font-size: 22px;
+        color: lavenderblush;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__aside-title {
+        color: white;
+        font-size: 24px;
+        cursor: auto;
+    }
+
+    &__list {
+
+    }
+}
+.article {
+
+    &__container {
+        border: 1px solid gray;
+        font-size: 22px;
+        line-height: 30px;
+        // max-width: 900px;
+        padding-left: 30px;
+    }
+
+    &__title {
+        font-size: 32px;
+        color: darkblue;
+    }
+
+    &__text {
+        max-width: 1100px;
+    }
+}
+
+.active-title {
+    color: rebeccapurple;
+}

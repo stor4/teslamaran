@@ -1,0 +1,35 @@
+.videoSwiper {
+    margin-top: 30px;
+    /* width: 1000px; */
+    background-color: black;
+    // max-width: 500px;
+    max-width: 90%;
+}
+
+.video__slide {
+    height: 300px;
+    background-image: url(../img/photo_2024-03-13_20-18-36.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    lite-youtube {
+        width: 100%;
+        max-width: 335px;
+        height: 75%;
+    }
+}
+
+// .swiper-slide {
+//     width: 500px;
+//     height: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     position: relative;
+//     color: white;
+// }

@@ -6,11 +6,10 @@
 
 // подключения компонентов страницы
 @import "./components/header";
+@import "./components/live-youtube";
+@import "./components/main";
+@import "./components/videoSwiper";
+@import "./components/gallery";
+@import "./components/hero";
 
-// тестовые стили, удалите их
-.page__body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--vh);
-}
+

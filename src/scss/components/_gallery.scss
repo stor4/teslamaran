@@ -1,0 +1,91 @@
+.gallery {
+    width: 300px;
+
+    &__preview {
+        position: relative;
+        // height: 300px;
+        width: 300px;
+
+        img {
+            // height: 225px;
+            // height: 300px;
+            
+        }
+
+        &::before,
+        &::after {
+            content: '';
+            background-image: url(../../img/svg/left-arrow-svgrepo-com.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            transform: translateY(250%);
+            left: 0;
+        }
+
+        &::after {
+            transform: rotate(180deg) translateY(-250%);
+            right: 0;
+            left: auto;
+        }
+    }
+
+    &__modal {
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 99;
+    }
+
+    &__modal-close {
+        color: white;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    &__slide {
+        width: 500px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        color: white;
+
+        img {
+            width: 100%;
+            max-width: 500px;
+        }
+    }
+
+    &__slide-text {
+        position: absolute;
+        bottom: 15px;
+        text-align: center;
+        max-width: 75vw;
+    }
+
+    &__slide-time {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.mySwiper2 {
+    height: 100%;
+}
