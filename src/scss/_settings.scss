@@ -78,11 +78,11 @@ a {
   clip: rect(0 0 0 0);
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 var(--container-offset);
-  max-width: var(--container-width);
-}
+// .container {
+//   margin: 0 auto;
+//   padding: 0 var(--container-offset);
+//   max-width: var(--container-width);
+// }
 
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;

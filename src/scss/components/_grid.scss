@@ -1,0 +1,234 @@
+/* Общие стили */
+
+// body {
+//     background-color: #fff;
+//     font-family: 'Poppins', sans-serif;
+//     font-size: 14px;
+//     font-weight: 400;
+//     color: #888888;
+//     word-wrap: break-word;
+//     margin: 0;
+//     padding: 0;
+// }
+
+// h1, h2, h3, h4, h5, h6 {
+//     font-family: 'Titillium Web', sans-serif;
+//     font-weight: 700;
+// }
+
+// .section, .widget, .widget ul {
+//     margin: 0;
+//     padding: 0;
+// }
+
+/* #grid-wrapper */
+
+#grid-wrapper {
+    overflow: hidden;
+    margin: 0 0 30px;
+}
+
+#grid-wrapper .container {
+    margin: 0 auto;
+}
+
+.row {
+    width: 1140px;
+}
+
+.featured-posts {
+    margin: 0 auto;
+}
+
+#grid-wrapper .show-grid {
+    display: block;
+    margin: 0;
+}
+
+#grid-wrapper .widget {
+    // display: none;
+}
+
+.featured-posts > .widget {
+    display: none;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+#grid-wrapper .widget > .widget-title {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 32px;
+    display: block;
+    margin: 0;
+}
+
+#grid-wrapper .show-grid .widget-content {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid-wrapper .widget > .widget-title > h3 {
+    position: relative;
+    float: left;
+    height: 32px;
+    background-color: #73299a;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 32px;
+    padding: 0 15px;
+    margin: 0;
+}
+
+/* ul.grid-big */
+
+ul.grid-big {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+// @media only screen and (min-width: 0) and (max-width: 768px) {
+//     ul.grid-big {
+//         grid-template-columns: repeat(2, 1fr);
+//     }
+// }
+
+/* .grid-big li */
+
+.grid-big li {
+    position: relative;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* .grid-big .feat-inner */
+
+.grid-big .feat-inner {
+    position: relative;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* .grid-big .post-image-link */
+
+.grid-big .post-image-link {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 280px;
+    display: block;
+    overflow: hidden;
+    margin: 0 0 13px;
+}
+
+/* .grid-big .post-info */
+
+.grid-big .post-info {
+    float: left;
+    width: 100%;
+}
+
+/* .grid-big .post-title */
+
+.grid-big .post-title {
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin: 0 0 10px;
+}
+
+/* .grid-big .post-meta */
+
+.grid-big .post-meta {
+    display: block;
+    overflow: hidden;
+}
+
+/* .grid-big .post-snippet */
+
+.grid-big .post-snippet {
+    font-size: 13px;
+}
+
+/* .post-snippet */
+
+.post-snippet {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 400;
+    margin: 7px 0 0;
+    color: #999999;
+}
+
+/* .widget iframe, .widget img */
+
+.widget iframe, .widget img {
+    max-width: 100%;
+}
+
+/* Ссылки */
+
+a {
+    color: #73299a;
+}
+
+a:visited {
+    color: blue;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+/* Фоновый цвет ссылок */
+
+.post-image-link,
+.comments .avatar-image-container {
+    background-color: #f9f9f9;
+}
+
+/* Изображения */
+
+.post-thumb.lazy-yard {
+    opacity: 1;
+}
+
+.post-thumb {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .35s ease, transform .35s ease;
+}
+
+/* Общие стили для списков */
+
+dl,
+ul {
+    list-style-position: inside;
+    font-weight: 400;
+    list-style: none;
+}
