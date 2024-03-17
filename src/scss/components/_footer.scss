@@ -1,0 +1,95 @@
+/* Общие стили */
+.footer-bar {
+    background-color: var(--footer-bg);
+    color: var(--footer-color);
+    padding: 20px 0;
+}
+
+.flex-center, .flex-c {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-x1 {
+    width: 1140px;
+}
+
+.container {
+    position: relative;
+}
+
+/* Стили футера */
+.footer-bar .footer-copyright {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#footer-menu {
+    position: relative;
+    display: block;
+    margin: 0;
+}
+
+.footer-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-bar .footer-copyright a {
+    color: var(--footerbar-color);
+}
+
+/* Общие стили для секций, виджетов и списков */
+.section, .widget, .widget ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Дополнительные стили для ссылок, ввода и кнопок */
+a, input, button {
+    transition: all .0s ease;
+}
+
+#back-top {
+    // display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 34px;
+    height: 34px;
+    background-color: #4886ff;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 15px;
+    color: #47474A;
+    text-align: center;
+    line-height: 34px;
+    z-index: 50;
+    margin: 0;
+    transition: background .17s ease, color .17s ease;
+    border-radius: 3px;
+}
+
+#back-top:before {
+    content: '';
+    transform: translate(64%, 64%);
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../img/svg/arrow-up.svg);
+    position: relative;
+    font-weight: 900;
+}
+
+#back-top:hover {
+    background-color: #0036b5;
+    color: #ffffff;
+}
