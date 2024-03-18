@@ -3,18 +3,17 @@
 :root {
   // base
   --font-family: "Open Sans", sans-serif;
-  --content-width: 1170px;
+  --content-width: 1280px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
-  // --hero-background : #6d8cf8;
   --hero-background : #4886ff;
-  // --hero-backround-gradient: linear-gradient(to right, #c12dd1, #6d8cf8);
   --hero-backround-gradient: linear-gradient(to right, #4886ff, #45f7dc);
   // --body-bg: #f0fdff;
   --footer-bg: #ffffff;
   --footer-color: #212121;
   --header-bg: #4886ff;
   --header-bg1: #45f7dc;
+  --body-font: 'Roboto', Arial, sans-serif;
 
   --border-color: rgba(155, 155, 155, 0.1);
   --border-radius: 3px;
@@ -22,6 +21,8 @@
   --avatar-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
   --widget-bg: #FFFFFF;
   --main-color: #4886ff;
+  --post-title-color: #15161A;
+  --meta-color: #76767A;
 
 
   // colors
