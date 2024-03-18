@@ -33,3 +33,60 @@
 //     position: relative;
 //     color: white;
 // }
+
+// .x.mandatory-scroll-snapping {
+//     scroll-snap-type: x mandatory;
+//   }
+
+
+  
+
+// .videoGallery {
+//     width: 100%;
+
+// 		&__container {
+// 		}
+
+// 		&__item {
+// 		}
+//         .container > div {
+
+//             text-align: center;
+//             scroll-snap-align: center;
+//             flex: none;
+//         }
+// }
+
+.videoGallery {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    // width: 300px;
+    margin: 30px 0;
+    // width: 100%;
+}
+
+.video__slide {
+    scroll-snap-align: start;
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/photo_2024-03-13_20-18-36.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+lite-youtube {
+    width: 100%;
+    max-width: 335px;
+    height: 75%;
+}
+
+
+
+
+

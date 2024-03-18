@@ -26,6 +26,7 @@
 #grid-wrapper {
     overflow: hidden;
     margin: 0 0 30px;
+    margin-top: 100px;
 }
 
 #grid-wrapper .container {
@@ -77,15 +78,17 @@
 
 #grid-wrapper .widget > .widget-title > h3 {
     position: relative;
-    float: left;
+    // float: left;
     height: 32px;
-    background-color: #73299a;
-    font-size: 12px;
+    // background-color: #73299a;
+    color: black !important;
+    font-size: 32px;
     color: #fff;
     text-transform: uppercase;
     line-height: 32px;
     padding: 0 15px;
     margin: 0;
+    text-align: center;
 }
 
 /* ul.grid-big */
