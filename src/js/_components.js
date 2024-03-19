@@ -6,3 +6,4 @@ import './components/footer';
 import './components/article';
 import './components/videoGallery';
 import './components/blog';
+import './components/header';

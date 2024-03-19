@@ -1,0 +1,155 @@
+.blog-post {
+    display: block;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.contacts__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+}
+
+.static_page .item-post h1.post-title {
+    margin: 0;
+}
+
+.item-post h1.post-title {
+    font-size: 27px;
+    color: #222222;
+    line-height: 1.5em;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    margin: 0 0 15px;
+}
+
+.static_page .item-post .post-body {
+    padding: 35px 0;
+}
+
+.item-post .post-body {
+    display: block;
+    font-size: 14px;
+    line-height: 1.6em;
+    padding: 35px 0 0;
+}
+
+.post-body .contact-form {
+    display: table;
+}
+
+.contact-form-widget form {
+    font-weight: 400;
+}
+
+.contact-form-widget form {
+    font-weight: 400;
+}
+
+.contact-form .contact-form-name {
+    width: calc(50% - 5px);
+}
+.contact-form-name, .contact-form-email {
+    float: left;
+    width: calc(50% - 5px);
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.01);
+    font-family: inherit;
+    font-size: 13px;
+    color: #fff;
+    line-height: 34px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.contact-form-name {
+    float: left;
+    width: 100%;
+    height: 30px;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 30px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 0 0 10px;
+    border: 1px solid #eaeaea;
+}
+
+.contact-form .contact-form-email {
+    float: right;
+    width: calc(50% - 5px);
+}
+
+.contact-form-email-message {
+    float: left;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.01);
+    font-family: inherit;
+    font-size: 13px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.contact-form-email-message {
+    float: left;
+    width: 100%;
+    font-family: inherit;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 0 0 10px;
+    border: 1px solid #eaeaea;
+}
+
+.contact-form-button-submit {
+    float: left;
+    width: 100%;
+    height: 34px;
+    background-color: var(--main-color);
+    font-family: inherit;
+    font-size: 12px;
+    color: #fff;
+    line-height: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0;
+    border: 0;
+    border-radius: 3px;
+    transition: background .17s ease;
+}
+
+.contact-form-button-submit {
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: var(--main-color);;
+    font-size: 13px;
+    color: #fff;
+    line-height: 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0;
+    border: 0;
+    transition: background .17s ease;
+}

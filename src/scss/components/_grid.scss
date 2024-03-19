@@ -155,6 +155,20 @@ ul.grid-big {
     margin: 0 0 10px;
 }
 
+.post-title a {
+    color: black;
+    cursor: pointer;
+
+    :visited {
+        color: black;
+    }
+}
+
+.post-title {
+    cursor: pointer;
+}
+
+
 /* .grid-big .post-meta */
 
 .grid-big .post-meta {
@@ -189,13 +203,6 @@ ul.grid-big {
 
 /* Ссылки */
 
-a {
-    color: #73299a;
-}
-
-a:visited {
-    color: blue;
-}
 
 a,
 a:visited {

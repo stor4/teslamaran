@@ -53,12 +53,12 @@ function setArticle(titles) {
 
 // setArticle(articleTitlesAside);
 
-articleTitles.forEach(title => {
-    const asideTitle = document.createElement('p')
-    asideTitle.classList.add('main__aside-article')
-    asideTitle.innerText = title.textContent
-    aside.appendChild(asideTitle)
-})
+// articleTitles.forEach(title => {
+//     const asideTitle = document.createElement('p')
+//     asideTitle.classList.add('main__aside-article')
+//     asideTitle.innerText = title.textContent
+//     aside.appendChild(asideTitle)
+// })
 
 const clonedTitles = document.querySelectorAll('.main__aside-article');
 setArticle(clonedTitles);

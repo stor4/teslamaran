@@ -28,11 +28,13 @@
     font-size: 14px;
     font-weight: 400;
     margin: 0;
+    color: var(--main-color);
 }
 
 #footer-menu {
     position: relative;
-    display: block;
+    display: flex;
+    align-items: center;
     margin: 0;
 }
 
@@ -41,8 +43,23 @@
     flex-wrap: wrap;
 }
 
-.footer-bar .footer-copyright a {
+.footer-menu ul li {
+    margin: 0 5px;
+
+    :hover {
+        color: var(--main-color);
+        text-decoration: underline;
+    }
+}
+
+.footer-menu ul li a{
+    color: black;
+    
+}
+
+.footer-bar .footer-copyright p {
     color: var(--footerbar-color);
+    font-size: 16px;
 }
 
 /* Общие стили для секций, виджетов и списков */
@@ -63,7 +80,7 @@ a, input, button {
     right: 20px;
     width: 34px;
     height: 34px;
-    background-color: #4886ff;
+    background-color: var(--main-color);
     cursor: pointer;
     overflow: hidden;
     font-size: 15px;

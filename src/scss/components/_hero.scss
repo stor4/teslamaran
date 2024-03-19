@@ -38,16 +38,6 @@ h1, h2, h3, h4, h5, h6 {
     // background: linear-gradient(to right, #c12dd1, #6d8cf8);
 }
 
-#intro-wrap:after {
-    position: absolute;
-    display: block;
-    content: "";
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEiO8DP8bLSFSf65xNfp3Cipl6fY0D0_Bo-wwEPu6rWsI9l-YiM4tCO8qtUsknAwj7tLz4jretJCuhzC1xClKPZmQoBPsZ6zCVCv99N8zYr43IfiLgR8SQtLffozA6L5WlpttGLAAl7dT8rn8gTfOdyppufgMFW7H4VnWQu3icUOYoBc74D-rfICjazHhA=s1600);
-}
 
 /* #main-intro */
 
@@ -158,24 +148,9 @@ h1, h2, h3, h4, h5, h6 {
     top: -0.89px;
     z-index: 0;
     margin: auto;
-
-    // ::after {
-    //     content: '';
-    //     background-image: url(../../img/svg/boat.svg);
-    //     background-size: contain;
-    //     background-repeat: no-repeat;
-
-    //     height: 300px;
-    //     width: 300px;
-    //     display: block;
-    //     // transform: translate(50%, 50%);
-    //     position: relative;
-    //     top: 140px;
-    //     left: 4vw;
-    //     rotate: -5deg;
-    //     animation: sway 2s infinite alternate;
-
-    // }
+    background-image: url(../../img/hero-bg.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 @keyframes sway {
@@ -204,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.5;
     background: var(--hero-backround);
     background: var(--hero-backround-gradient);
+
 }
 
 .sora-bgMiddle {
@@ -211,6 +187,9 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.75;
     background: var(--hero-backround);
     background: var(--hero-backround-gradient);
+    background-image: var(--hero-img);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .sora-bgBottom {

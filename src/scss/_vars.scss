@@ -6,13 +6,19 @@
   --content-width: 1280px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
-  --hero-background : #4886ff;
-  --hero-backround-gradient: linear-gradient(to right, #4886ff, #45f7dc);
+  // --hero-background : #4886ff;
+  --hero-background : #0077b6;
+  --hero-backfround1: #caf0f8;
+  // --hero-backround-gradient: linear-gradient(to right, #4886ff, #45f7dc);
+  --hero-backround-gradient: linear-gradient(to right, var(--hero-background), #caf0f8);
+  --hero-img: url(../../img/hero-bg.jpeg);
   // --body-bg: #f0fdff;
   --footer-bg: #ffffff;
   --footer-color: #212121;
-  --header-bg: #4886ff;
-  --header-bg1: #45f7dc;
+  // --header-bg: #4886ff;
+  --header-bg: var(--hero-background);
+  // --header-bg1: #45f7dc;
+  --header-bg1: #caf0f8;
   --body-font: 'Roboto', Arial, sans-serif;
 
   --border-color: rgba(155, 155, 155, 0.1);
@@ -20,10 +26,10 @@
   --widget-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   --avatar-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
   --widget-bg: #FFFFFF;
-  --main-color: #4886ff;
+  // --main-color: #4886ff;
+  --main-color: #03045e;
   --post-title-color: #15161A;
   --meta-color: #76767A;
-
 
   // colors
   --light-color: #fff;

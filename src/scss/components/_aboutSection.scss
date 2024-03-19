@@ -1,0 +1,54 @@
+#intro-author-heading {
+    width: 100%;
+    // float: left;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 80px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    background: var(--hero-background);
+    background: -webkit-linear-gradient(top left, var(--hero-background), var(--hero-backfround1));
+    background: -moz-linear-gradient(top left, var(--hero-background), var(--hero-backfround1));
+    background: linear-gradient(to top right, var(--hero-background), var(--hero-backfround1));
+    margin-top: 100px;
+}
+
+#intro-author-heading:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEh1S4W5YqkhqBF6j7HDKtQqBCnEGUji0fxIH9Zc2zoGqoMP6jGF9J_SZJYe2tBc3QD3Hb0STzNqqOOnNV5O96ufJTF8LwlcLoOfVJAxiqHL8RuD0rOx39TCD-SSzddUCs0szkwIhGE-4eKiAYxCJUfMGaT9RiINsf7_LkyUtgKsBLnlvP9alSsoo8wD4A=s16000); */
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    opacity: .2;
+}
+
+.author-title {
+    display: block;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 15px 0 20px;
+}
+
+.author-snippet {
+    font-size: 14px;
+    color: #f2f2f2;
+    line-height: 24px;
+    margin: 0;
+}
+
+#intro-author-heading .button {
+    margin: 10px 0 0;
+    padding: 8px 20px;
+    background: #232323;
+    color: #fff;
+    display: inline-block;
+    float: none;
+}
+
